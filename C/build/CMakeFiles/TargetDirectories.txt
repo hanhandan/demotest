@@ -1,4 +1,0 @@
-/home/vincent/samba/github/demotest/C/build/epoll_demo/CMakeFiles/epoll_client.dir
-/home/vincent/samba/github/demotest/C/build/epoll_demo/CMakeFiles/epoll_server.dir
-/home/vincent/samba/github/demotest/C/build/getaddrinfo/CMakeFiles/getaddinfo.dir
-/home/vincent/samba/github/demotest/C/build/fileop/CMakeFiles/libfileop.dir
