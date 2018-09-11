@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vincent/samba/github/demotest/C/fileop/remove_dir.c
+sys/stat.h
+-
+dirent.h
+-
+fcntl.h
+-
+stdio.h
+-
+

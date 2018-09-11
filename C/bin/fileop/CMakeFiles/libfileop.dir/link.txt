@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/liblibfileop.a  CMakeFiles/libfileop.dir/remove_dir.c.o
+/usr/bin/ranlib ../lib/liblibfileop.a

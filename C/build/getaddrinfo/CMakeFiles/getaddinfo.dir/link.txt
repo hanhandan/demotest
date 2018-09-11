@@ -1,0 +1,1 @@
+arm-linux-gnueabihf-gcc    -Wreturn-type -O0 -Wl,-Map=minerlive.map -g -fstack-protector-all  -Wno-unused  -fPIC -Wl,--rpath=.    CMakeFiles/getaddinfo.dir/main.c.o  -o ../../bin/getaddinfo  -L/opt/openlinux-toolchain/usr/lib  -L/home/vincent/samba/github/demotest/C/build/lib  -L/home/vincent/samba/github/demotest/C/lib -rdynamic 

@@ -1,6 +1,7 @@
 
 project(demo)
 cmake_minimum_required(VERSION 2.8.7)
+INCLUDE(cmakebuild/default.cmake)
 
 ##设置应用变量
 #get_filename_component(yunshang_source_dir "${PROJECT_SOURCE_DIR}/src" ABSOLUTE)
@@ -52,3 +53,5 @@ SET(SYS_LIBS pthread dl m curl crypto json-c m)
 #)
 ##设置需要编译的源码目录
 add_subdirectory(epoll_demo)
+add_subdirectory(fileop)
+add_subdirectory(getaddrinfo)

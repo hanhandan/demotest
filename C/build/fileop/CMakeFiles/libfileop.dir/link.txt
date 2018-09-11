@@ -1,0 +1,2 @@
+arm-linux-gnueabihf-ar cr ../lib/liblibfileop.a  CMakeFiles/libfileop.dir/remove_dir.c.o
+arm-linux-gnueabihf-ranlib ../lib/liblibfileop.a

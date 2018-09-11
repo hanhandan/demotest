@@ -1,0 +1,3 @@
+/home/vincent/samba/github/demotest/C/bin/epoll_demo/CMakeFiles/epoll_client.dir
+/home/vincent/samba/github/demotest/C/bin/epoll_demo/CMakeFiles/epoll_server.dir
+/home/vincent/samba/github/demotest/C/bin/fileop/CMakeFiles/libfileop.dir

@@ -1,0 +1,515 @@
+Archive member included because of file (symbol)
+
+/home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                              /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o (__libc_csu_init)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 CMakeFiles/epoll_server.dir/server/server.c.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+LOAD CMakeFiles/epoll_server.dir/server/server.c.o
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libpthread.so
+START GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/libpthread.so.0
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libpthread_nonshared.a
+END GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libdl.so
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libm.so
+LOAD /opt/openlinux-toolchain/usr/lib/libcurl.so
+LOAD /opt/openlinux-toolchain/usr/lib/libcrypto.so
+LOAD /opt/openlinux-toolchain/usr/lib/libjson-c.so
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libm.so
+LOAD /opt/openlinux-toolchain/usr/lib/libcurl.so
+LOAD /opt/openlinux-toolchain/usr/lib/libcrypto.so
+LOAD /opt/openlinux-toolchain/usr/lib/libjson-c.so
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/libgcc.a
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/libgcc.a
+END GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc.so
+START GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/libc.so.6
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/libgcc.a
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/libgcc.a
+END GROUP
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+LOAD /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+                0x00008000                PROVIDE (__executable_start, 0x8000)
+                0x00008134                . = (0x8000 + SIZEOF_HEADERS)
+
+.interp         0x00008134       0x19
+ *(.interp)
+ .interp        0x00008134       0x19 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.note.ABI-tag   0x00008150       0x20
+ .note.ABI-tag  0x00008150       0x20 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.note.gnu.build-id
+                0x00008170       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00008170       0x24 linker stubs
+
+.hash           0x00008194      0x150
+ *(.hash)
+ .hash          0x00008194      0x150 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000082e4      0x2d0
+ *(.dynsym)
+ .dynsym        0x000082e4      0x2d0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.dynstr         0x000085b4      0x2a2
+ *(.dynstr)
+ .dynstr        0x000085b4      0x2a2 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version    0x00008856       0x5a
+ *(.gnu.version)
+ .gnu.version   0x00008856       0x5a /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version_d  0x000088b0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version_r  0x000088b0       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000088b0       0x60 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.rel.dyn        0x00008910       0x10
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00008910       0x10 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x00008920                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x00008920                PROVIDE (__rel_iplt_end, .)
+                0x00008920                PROVIDE (__rela_iplt_start, .)
+                0x00008920                PROVIDE (__rela_iplt_end, .)
+
+.rela.dyn       0x00008920        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                0x00008920                PROVIDE (__rel_iplt_start, .)
+                0x00008920                PROVIDE (__rel_iplt_end, .)
+                0x00008920                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                0x00008920                PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x00008920       0xb8
+ *(.rel.plt)
+ .rel.plt       0x00008920       0xb8 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x000089d8        0xc
+ *(SORT(.init))
+ .init          0x000089d8        0x8 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+                0x000089d8                _init
+ .init          0x000089e0        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+
+.plt            0x000089e4      0x128
+ *(.plt)
+ .plt           0x000089e4      0x128 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000089f8                abort@@GLIBC_2.4
+                0x00008a04                __libc_start_main@@GLIBC_2.4
+                0x00008a10                signal@@GLIBC_2.4
+                0x00008a1c                epoll_create@@GLIBC_2.4
+                0x00008a34                strncpy@@GLIBC_2.4
+                0x00008a40                putchar@@GLIBC_2.4
+                0x00008a4c                listen@@GLIBC_2.4
+                0x00008a58                perror@@GLIBC_2.4
+                0x00008a64                read@@GLIBC_2.4
+                0x00008a70                write@@GLIBC_2.4
+                0x00008a7c                accept@@GLIBC_2.4
+                0x00008a88                socket@@GLIBC_2.4
+                0x00008a94                epoll_wait@@GLIBC_2.4
+                0x00008aa0                unlink@@GLIBC_2.4
+                0x00008aac                printf@@GLIBC_2.4
+                0x00008ab8                bind@@GLIBC_2.4
+                0x00008ac4                close@@GLIBC_2.4
+                0x00008ad0                remove@@GLIBC_2.4
+                0x00008adc                __stack_chk_fail@@GLIBC_2.4
+                0x00008ae8                puts@@GLIBC_2.4
+                0x00008af4                epoll_ctl@@GLIBC_2.4
+                0x00008b00                __errno_location@@GLIBC_2.4
+
+.iplt           0x00008b0c        0x0
+ *(.iplt)
+ .iplt          0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+
+.text           0x00008b0c      0x6c8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008b0c       0x30 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x00008b0c                _start
+ .text          0x00008b3c       0x24 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+ .text          0x00008b60       0x8c /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .text          0x00008bec      0x5a4 CMakeFiles/epoll_server.dir/server/server.c.o
+                0x00008bec                handler
+                0x00008c48                main
+ .text          0x00009190       0x44 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                0x00009190                __libc_csu_init
+                0x000091d0                __libc_csu_fini
+ .text          0x000091d4        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+ .text          0x000091d4        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x000091d4        0x8
+ *(SORT(.fini))
+ .fini          0x000091d4        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+                0x000091d4                _fini
+ .fini          0x000091d8        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+                0x000091dc                PROVIDE (__etext, .)
+                0x000091dc                PROVIDE (_etext, .)
+                0x000091dc                PROVIDE (etext, .)
+
+.rodata         0x000091dc       0xd0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000091dc        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000091dc                _IO_stdin_used
+ .rodata        0x000091e0       0xcc CMakeFiles/epoll_server.dir/server/server.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x000092ac        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000092ac        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000092ac                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x000092ac        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000092ac        0x8 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000092b4                PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr   0x000092b4        0x0
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+
+.eh_frame       0x000092b4        0x4
+ *(.eh_frame)
+ .eh_frame      0x000092b4        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000092b8                . = (ALIGN (0x8000) - ((0x8000 - .) & 0x7fff))
+                0x000112b8                . = DATA_SEGMENT_ALIGN (0x8000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000112b8        0x0
+                0x000112b8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000112b8                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000112b8        0x4
+                0x000112b8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000112b8        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+                0x000112bc                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000112bc        0x4
+                0x000112bc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x000112bc        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+                0x000112c0                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000112c0        0x4
+ *(.jcr)
+ .jcr           0x000112c0        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .jcr           0x000112c0        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000112c4      0x128
+ *(.dynamic)
+ .dynamic       0x000112c4      0x128 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000112c4                _DYNAMIC
+                0x000113ec                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x000113ec       0x74
+ *(.got.plt)
+ .got.plt       0x000113ec       0x68 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x000113ec                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ *(.got)
+ .got           0x00011454        0xc /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ *(.igot)
+
+.data           0x00011460        0x8
+                0x00011460                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00011460        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+                0x00011460                data_start
+                0x00011460                __data_start
+ .data          0x00011464        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+ .data          0x00011464        0x4 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+                0x00011464                __dso_handle
+ .data          0x00011468        0x0 CMakeFiles/epoll_server.dir/server/server.c.o
+ .data          0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .data          0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+ .data          0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+
+.tm_clone_table
+                0x00011468        0x0
+ .tm_clone_table
+                0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .tm_clone_table
+                0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+
+.data1
+ *(.data1)
+                0x00011468                _edata = .
+                0x00011468                PROVIDE (edata, .)
+                0x00011468                . = .
+                0x00011468                __bss_start = .
+                0x00011468                __bss_start__ = .
+
+.bss            0x00011468        0x4
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ .bss           0x00011468        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+ .bss           0x00011468        0x1 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .bss           0x00011469        0x0 CMakeFiles/epoll_server.dir/server/server.c.o
+ .bss           0x00011469        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .bss           0x00011469        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+ .bss           0x00011469        0x0 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+ *(COMMON)
+                0x0001146c                . = ALIGN ((. != 0x0)?0x4:0x1)
+ *fill*         0x00011469        0x3 
+                0x0001146c                _bss_end__ = .
+                0x0001146c                __bss_end__ = .
+                0x0001146c                . = ALIGN (0x4)
+                0x0001146c                . = SEGMENT_START ("ldata-segment", .)
+                0x0001146c                . = ALIGN (0x4)
+                0x0001146c                __end__ = .
+                0x0001146c                _end = .
+                0x0001146c                PROVIDE (end, .)
+                0x0001146c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x5f
+ *(.comment)
+ .comment       0x00000000       0x5f CMakeFiles/epoll_server.dir/server/server.c.o
+                                 0x60 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x35 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o
+ .ARM.attributes
+                0x00000035       0x23 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o
+ .ARM.attributes
+                0x00000058       0x35 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o
+ .ARM.attributes
+                0x0000008d       0x35 CMakeFiles/epoll_server.dir/server/server.c.o
+ .ARM.attributes
+                0x000000c2       0x37 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x000000f9       0x35 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o
+ .ARM.attributes
+                0x0000012e       0x23 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/epoll_server.dir/server/server.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x403
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x403 CMakeFiles/epoll_server.dir/server/server.c.o
+
+.debug_abbrev   0x00000000      0x12c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x12c CMakeFiles/epoll_server.dir/server/server.c.o
+
+.debug_line     0x00000000      0x29a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x29a CMakeFiles/epoll_server.dir/server/server.c.o
+
+.debug_frame    0x00000000       0xb0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x6c CMakeFiles/epoll_server.dir/server/server.c.o
+ .debug_frame   0x0000006c       0x44 /home/vincent/samba/gitlab/FirmwareSupport/FirmwarePackages/toolchain/openlinux-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+
+.debug_str      0x00000000      0x37a
+ *(.debug_str)
+ .debug_str     0x00000000      0x37a CMakeFiles/epoll_server.dir/server/server.c.o
+                                0x3c2 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x18
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 CMakeFiles/epoll_server.dir/server/server.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(../../bin/epoll_server elf32-littlearm)
