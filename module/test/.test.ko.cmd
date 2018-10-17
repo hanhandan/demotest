@@ -1,0 +1,1 @@
+cmd_/home/vincent/samba/github/demotest/module/test/test.ko := arm-linux-gnueabihf-ld -EL -r  -T /media/vincent/job/repo_buildroot/output/meson8b_m201_mainland/build/linux/scripts/module-common.lds --build-id  -o /home/vincent/samba/github/demotest/module/test/test.ko /home/vincent/samba/github/demotest/module/test/test.o /home/vincent/samba/github/demotest/module/test/test.mod.o
