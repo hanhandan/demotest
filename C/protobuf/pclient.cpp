@@ -24,11 +24,11 @@ int main(int argc, char ** argv)
   struct sockaddr_in server;  
     
   if (argc != 2) {  
-    printf("Usage: %s \"COMMAND\"\n",argv[0]);  
+    printf("Usage: %s \"IP\"\n",argv[0]);  
     exit(0);  
   }   
     
-  he = gethostbyname(HOST);  
+  he = gethostbyname(argv[1]);  
   fd = socket(AF_INET, SOCK_STREAM, 0);  
   bzero(&server, sizeof(server));  
   server.sin_family = AF_INET;  
@@ -37,7 +37,7 @@ int main(int argc, char ** argv)
   
   connect(fd, (struct sockaddr *)&server, sizeof(struct sockaddr));  
   
-  send(fd, argv[1], 20, 0);  
+  send(fd, "GET PEOPLE", 20, 0);  
   
   numbytes = recv(fd, buf, MAXDATASIZE, 0);  
   buf[numbytes] = '\0';  

@@ -52,6 +52,8 @@ SET(SYS_LIBS pthread dl m curl crypto json-c m)
 #"${PROJECT_SOURCE_DIR}/include/version.h"
 #)
 ##设置需要编译的源码目录
-add_subdirectory(epoll_demo)
-add_subdirectory(fileop)
-add_subdirectory(getaddrinfo)
+#add_subdirectory(epoll_demo)
+#add_subdirectory(fileop)
+#add_subdirectory(getaddrinfo)
+#add_subdirectory(libevent)
+add_subdirectory(curl)

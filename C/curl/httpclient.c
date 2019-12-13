@@ -16,7 +16,7 @@ int  add_data(char * input,char * buffer)
 {
     int offset = 0;
     char * ptr = buffer;
-    offset = snprintf(ptr,strlen(input),"%s",input);
+    offset = snprintf(ptr,strlen(input)+1,"%s",input);
     ptr[offset]=0x01;
     return offset;
 }
@@ -24,38 +24,55 @@ int  add_data(char * input,char * buffer)
 void build_buffer(char * buffer)
 {
     char * ptr = buffer;
+    int i=0;
     int offset=0;
-    offset = add_data("sn=OCPZ121151751",ptr);
+    int total=0;
+    offset = add_data("OCPZ121151751",ptr);
+    // for (i = 0;i<=offset;i++)
+    // {
+    //     printf("%c=0x%x, ",ptr[i],ptr[i]);
+    // }
+    // printf ("\noffset %d\n",offset);
+
     ptr += offset+1;
-    offset = add_data("version=1.0.25",ptr);
+
+    offset = add_data("1.0.25",ptr);
+    // for (i = 0;i<=offset;i++)
+    // {
+    //     printf("%c=0x%x, ",ptr[i],ptr[i]);
+    // }
+    // printf ("\noffset %d\n",offset);
     ptr += offset+1;
-    offset = add_data("state=1",ptr);
+
+
+
+    offset = add_data("1",ptr);
     ptr += offset+1;
-    offset = add_data("limit_min=5000",ptr);
+    offset = add_data("5000",ptr);
     ptr += offset+1;
-    offset = add_data("limit_max=100000",ptr);
+    offset = add_data("100000",ptr);
     ptr += offset+1;
-    offset = add_data("limit=100000",ptr);
+    offset = add_data("100000",ptr);
     ptr += offset+1;
-    offset = add_data("rate_max=82340",ptr);
+    offset = add_data("82340",ptr);
     ptr += offset+1;
-    offset = add_data("rate=63423",ptr);
+    offset = add_data("63423",ptr);
     ptr += offset+1;
-    offset = add_data("extern_ip=183.2.223.28",ptr);
+    offset = add_data("183.2.223.28",ptr);
     ptr += offset+1;
-    offset = add_data("lost1=2",ptr);
+    offset = add_data("2",ptr);
     ptr += offset+1;
-    offset = add_data("ping_host=www.baidu.com",ptr);
+    offset = add_data("www.baidu.com",ptr);
     ptr += offset+1;
-    offset = add_data("ping_ip=14.215.177.39",ptr);
+    offset = add_data("14.215.177.39",ptr);
     ptr += offset+1;
-    offset = add_data("lost2=10",ptr);
+    offset = add_data("10",ptr);
     ptr += offset+1;
-    offset = add_data("rtt1=20",ptr);
+    offset = add_data("20",ptr);
     ptr += offset+1;    
-    offset = add_data("rtt2=23",ptr);
+    offset = add_data("23",ptr);
     ptr += offset+1;
-    offset = add_data("rtt3=25",ptr);
+    offset = add_data("25",ptr);
     ptr += offset;
     *ptr='\0';  
 }
@@ -79,8 +96,9 @@ int init_curl(char * buffer)
     }
 
     build_buffer(buffer);
+
     // snprintf(url, sizeof(url)-1,"http://%s/?client_ip=0.0.0.0",choose_random_server());
-    snprintf(url, sizeof(url)-1,"http://127.0.0.1:51213/report/qos_state";
+    snprintf(url, sizeof(url)-1,"http://127.0.0.1:51213/report/qos_state");
     
     PLUGIN_LOG(PLUGIN_NOTICE, "curl ask for [%s]",url);
 
@@ -103,4 +121,10 @@ CURL_RETURN:
     curl_global_cleanup();
 
 	return ret;
+}
+
+int main(int argc,void * argvp[])
+{
+    init_curl(buffer);
+    return 0;
 }
