@@ -27,7 +27,7 @@ void build_buffer(char * buffer)
     int i=0;
     int offset=0;
     int total=0;
-    offset = add_data("OCPZ121151751",ptr);
+    offset = add_data("VVVVVVVVVVVVVVVVV",ptr);
     // for (i = 0;i<=offset;i++)
     // {
     //     printf("%c=0x%x, ",ptr[i],ptr[i]);
@@ -98,7 +98,7 @@ int init_curl(char * buffer)
     build_buffer(buffer);
 
     // snprintf(url, sizeof(url)-1,"http://%s/?client_ip=0.0.0.0",choose_random_server());
-    snprintf(url, sizeof(url)-1,"http://127.0.0.1:51213/report/qos_state");
+    snprintf(url, sizeof(url)-1,"http://127.0.0.1:5/ret/ate");
     
     PLUGIN_LOG(PLUGIN_NOTICE, "curl ask for [%s]",url);
 
